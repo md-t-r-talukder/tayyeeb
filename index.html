@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tayyeeb - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">MTRT</a>
+            <div class="nav-links" id="navLinks">
+                <a href="#profile">Profile</a>
+                <a href="#projects">Projects</a>
+                <a href="#internships">Internships</a>
+                <a href="#memories">Memories</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="menu-btn" id="menuBtn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="profile-pic">
+                        <img src="Tr.jpg" alt="Profile Picture">
+                    </div>
+                    <h1>Step in! Let’s create together</h1>
+                    <p class="subtitle"> Hey, I'm Tayyeeb Explore my world of coding, projects, and tech. Feel free to connect.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p class="about-text">
+                    I study Computer Science and Engineering at Hailakandi Polytechnic.
+                </p>
+                
+                <div class="skills-container">
+                    <div class="skills-box">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <h3>Personal Skills</h3>
+                        <div class="skills-list">
+                            <span>Problem Solving</span>
+                            <span>Team Leadership</span>
+                            <span>Communication</span>
+                            <span>Time Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Online Clothing Store (Currently in Development)</h3>
+                        <p>An e-commerce platform where users can browse, filter, and purchase clothing items. Customers will be able to add products to their cart, complete secure checkouts, and manage their order history. The project is under development, and updates will be available once it is completed.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>React</span>
+                        </div>
+                        <!-- <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i data-lucide="github"></i>
+                                Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i data-lucide="external-link"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div> -->
+                    <!-- More project cards... -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Internships Section -->
+        <section id="internships" class="section">
+            <div class="container">
+                <h2>Internships</h2>
+                <div class="internships-list">
+                    <div class="internship-card">
+                        <h3>Internship Trainee</h3>
+                        <p class="company">Assam Electronics Development Corporation Ltd. (AMTRON)</p>
+                        <p class="duration">December 2024 - January 2025</p>
+                        <p>Completed a 10-day internship focused on enhancing skills in web application development and corporate training.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- More internship cards... -->
+                   
+                </div>
+            </div>
+        </section>
+
+        <!-- Memories Section -->
+        <section id="memories" class="section">
+            <div class="container">
+                <h2>Memories</h2>
+                <div class="memories-grid">
+                    <div class="memory-card" data-image="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800&h=600">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800&h=600" alt="College Event">
+                        <div class="memory-overlay">
+                            <p>College Event</p>
+                        </div>
+                    </div>
+                    <!-- More memory cards... -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i data-lucide="github"></i>
+                            GitHub
+                        </a>
+                        <a href="#" class="social-link">
+                            <i data-lucide="linkedin"></i>
+                            LinkedIn
+                        </a>
+                        <a href="mailto:your.email@example.com" class="social-link">
+                            <i data-lucide="mail"></i>
+                            Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Tayyeeb</p>
+            <div class="footer-social">
+                <a href="#"><i data-lucide="github"></i></a>
+                <a href="#"><i data-lucide="linkedin"></i></a>
+                <a href="mailto:your.email@example.com"><i data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for memories -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img id="modalImage" src="" alt="Memory">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
