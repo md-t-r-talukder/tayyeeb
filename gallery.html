@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery - Muhammad Tayyeebur Rohman Talukder">
+    <meta name="author" content="Muhammad Tayyeebur Rohman Talukder">
+    <title>Gallery | Tayyeeb</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html" style="color: var(--color-primary); text-decoration: none;">
+                    <span class="brand-name">Tayyeeb</span>
+                </a>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <section class="gallery-header">
+        <div class="container">
+            <h1 class="page-title">Gallery</h1>
+            <p class="page-subtitle">A glimpse into my professional journey and memorable moments</p>
+            <p class="gallery-location" style="margin-top:8px; font-weight:700; letter-spacing:0.6px;">Guwahati</p>
+        </div>
+    </section>
+
+    <!-- Filter Buttons -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="projects">Projects</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="achievements">Achievements</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Local images from root -->
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image-wrapper">
+                        <img src="a1.jpg" alt="Guwahati - Photo 1" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Guwahati</h3>
+                            <p>Memorable moment — Guwahati</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image-wrapper">
+                        <img src="a2.jpg" alt="Guwahati - Photo 2" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Guwahati</h3>
+                            <p>Captured in Guwahati</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Images -->
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://via.placeholder.com/400x300?text=Web+Project+1" alt="Web Development Project" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Web Development Project</h3>
+                            <p>Full-stack responsive application</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://via.placeholder.com/400x300?text=Frontend+App" alt="Frontend Application" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Frontend Application</h3>
+                            <p>Interactive user interface</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://via.placeholder.com/400x300?text=Database+Project" alt="Database Management" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Database Management</h3>
+                            <p>Complex data architecture</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Images -->
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://via.placeholder.com/400x300?text=Polytechnic+Event" alt="College Event" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>College Event</h3>
+                            <p>Hailakandi Polytechnic</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://via.placeholder.com/400x300?text=Tech+Seminar" alt="Technical Seminar" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Tech Seminar</h3>
+                            <p>Web Development Workshop</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://via.placeholder.com/400x300?text=Team+Collaboration" alt="Team Work" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Team Collaboration</h3>
+                            <p>Group project presentation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement Images -->
+                <div class="gallery-item" data-category="achievements">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://via.placeholder.com/400x300?text=Certificate+1" alt="Achievement Certificate" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Web Development Certification</h3>
+                            <p>Course Completion</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="achievements">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://via.placeholder.com/400x300?text=Award" alt="Award Recognition" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Academic Excellence</h3>
+                            <p>Award Recognition</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="achievements">
+                    <div class="gallery-image-wrapper">
+                        <img src="https://via.placeholder.com/400x300?text=Graduation" alt="Graduation" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Graduation Day</h3>
+                            <p>Diploma Completion</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="gallery-cta">
+        <div class="container">
+            <h2>Want to See More?</h2>
+            <p>Check out my projects and connect with me on social media</p>
+            <div class="cta-buttons">
+                <a href="projects.html" class="btn btn-primary">View Projects</a>
+                <a href="index.html#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Muhammad Tayyeeb. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Gallery Filter Functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                galleryItems.forEach(item => {
+                    if (filter === 'all') {
+                        item.style.display = 'block';
+                        setTimeout(() => item.classList.add('show'), 10);
+                    } else {
+                        const category = item.getAttribute('data-category');
+                        if (category === filter) {
+                            item.style.display = 'block';
+                            setTimeout(() => item.classList.add('show'), 10);
+                        } else {
+                            item.classList.remove('show');
+                            setTimeout(() => item.style.display = 'none', 300);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
